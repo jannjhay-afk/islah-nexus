@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "src/void",
+    "src/architect",
+    "src/surface"
+]
+resolver = "2"
+
+[profile.release]
+lto = true
+opt-level = 3
+panic = "abort"
